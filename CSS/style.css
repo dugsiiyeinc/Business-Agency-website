@@ -282,9 +282,7 @@ body{
 }
 
 /* Our Service */
-.our-services {
-  
-}
+
 .services{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
