@@ -1,0 +1,529 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Anybody", sans-serif;
+    /* /* color: #dfdfd8; */
+   background-color: #e0e0db; 
+}
+
+.contianer{
+   
+    width: 1110px;
+    margin-inline: auto;}
+ 
+ 
+ 
+ 
+ .background{
+    background: url('images/header-banner (1).jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+   
+    
+   
+}
+header{
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+ 
+   
+   
+   
+  
+}
+img{
+
+   margin-right: 15rem;
+   height: 60px;
+   width: 150px;
+  
+    
+
+   
+}
+
+.social-icons {
+    display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        height: 100%;
+        padding: 0 2rem;
+        gap: 2rem;
+     margin-top: 2rem;
+
+}
+.social-icons a{
+    color: #ffffff;
+}
+
+header .message{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-left: 40rem;
+    margin-top: -10px;
+}
+
+.header .message i{
+    color: #fff;
+    font-size: 16px;
+}
+
+.message a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.line{
+    border-bottom: 1px solid #636060;
+    margin-top: 1.5rem;
+}
+.nav-bar ul{
+    display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        height: 100%;
+        padding: 0 2rem;
+        gap: 1.5rem;
+     margin-top: 2rem;
+       
+}
+.nav-bar  a{
+    color: rgba(255, 255, 255, 0.813);
+text-decoration: none;
+flex-direction: column;
+}
+.nav-bar li{
+list-style: none;
+
+}
+
+.nav-bar li a:hover{
+    color: #ffffff;
+}
+.section{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20rem;
+  
+}
+.section-title{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+   
+}
+.social-icons .home{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 33rem;
+   
+}
+.containers{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+   
+
+}
+.head{
+    font-size: 17px;
+    color: #080707;
+    font-weight: 200;
+    /* margin-bottom: 2rem; */
+    flex-direction: column;
+    top: 0px;
+   margin: 10px;
+}
+em{
+    color: rgb(57, 75, 236)
+    ;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+   
+ 
+  
+   
+}
+span{
+    font-size: 18px;
+    color: #666666;
+    width:100%;
+  
+ 
+    
+}
+.right-side img{
+   
+   margin-top: -7rem;
+   left: 10rem;
+   height: auto;
+   width: 500px;
+}
+
+
+.icon i{
+    color: #080707;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 2rem;  
+}
+
+.btn1 h4 p{
+    display: flex;
+}
+button{
+    background-color: cornflowerblue;
+   
+
+   
+}
+.btn1{
+    
+ height: 40px;
+
+  margin-bottom: 10rem;
+}
+.btn2{
+    
+    height: 40px;
+ 
+    margin-bottom: 10rem;
+}
+.btn3{
+  
+    height: 40px;
+   
+    margin-bottom: 14rem;
+}
+
+.left-side img{
+    height: 600px;
+    width: 500px;
+ 
+   
+}
+.grid2{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 
+    margin-top: 10rem;
+   
+   
+}
+
+
+.right-side1{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 70px;
+    margin-left: -10rem;
+   margin-top: 2.5rem;
+}
+.right-side2 .icn i{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+    width: 70px;
+    margin-left: -10rem;
+    position: relative;
+    
+}
+ 
+.icn2{
+    border-left: 1px solid #d23535;}
+    .left-side2 .mini-section{
+       
+      flex-direction: row;
+        height: 100px;
+        width: 300px;
+      
+        margin-left: -14rem;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+     
+       
+       
+    }
+   
+
+ .grid3{
+    background-color: rgb(7, 26, 33);
+    height: 280vh;
+    width: 100%;
+    margin: 0;
+   
+   
+ }
+ .numbers{
+    color: white;
+    display: flex;
+    gap: 12rem;
+  
+    padding: 5rem;
+  
+    
+ }
+  .numbers .num1 h1{
+    border-bottom:2px solid #434242;
+    padding: 1rem;
+    width: 130%;
+
+ }
+ .icons{
+    background-color: #e0e0db;
+    height: 580px;
+    width: 700px;
+    margin-left: -10rem;
+    bottom: 4rem;
+   
+ 
+
+  
+   
+
+
+ }
+ .video {
+    
+    background-color: linear-gradient( rgb(2, 39, 52),rgba(7, 26, 33));
+    position: relative;
+    height: 100vh;
+    width: 50%;
+  
+   
+ }
+ .video-icons{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+   
+    
+ }
+
+  .icon-picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   margin: 0%;
+    position: relative;
+ }
+ 
+ .icon-picture img{
+   height: 100px;
+   width: 100px;
+   background-color: #fff;
+   padding: 1rem 1rem;
+   position: absolute;
+   border-radius: 2px;
+  
+   
+
+ }
+ .icon1 {
+    margin-top: 5rem;
+  
+    margin-bottom: 5rem;
+ }
+    .icon-picture img:hover{
+        transform: scale(1.05);
+    }
+
+    .title  {
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: -10rem;
+    padding: 3rem;
+    top: 3rem;
+    gap: 2rem;
+   
+   
+  
+ }
+
+ 
+
+ 
+ 
+
+
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    gap: 10rem; /* Si uu boosku u yaraado */
+    margin: 0;
+    max-width: 100px; /* Haddii ay aad u fidsan yihiin */
+    margin: auto; 
+    justify-content: center;
+   
+
+}
+
+
+
+.grids img
+{
+   
+   
+ 
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+   
+   
+   
+}
+.grids img:hover {
+        
+            transform: scale(1.05);
+        }
+        
+        
+        
+       
+        .col1 .name-work{
+            color: black;
+            font-size: 14px;
+            font-weight: 200;
+            margin-top: -4rem;
+           width: 200px;
+        }
+        .col1 i{
+            display: flex;
+            flex-direction: row;
+            position:relative;
+            top: -12rem;
+            gap: 4rem;
+            right: 0.7rem;
+            color: #fff;
+            background-color: #1f6feb;
+            width: 30px;
+            padding: 10px;
+        }
+        .col1 i :hover {
+            background-color: #1f6feb;
+        }
+        .grid4 .span-h1{
+           
+            margin-top: 5rem;
+        }
+        
+        .grid5-head{
+          
+           margin-top: 8rem;
+            
+            text-align: center;
+        }
+         
+        .grid5 .brand-names{
+            display: grid;
+            grid-template-columns: repeat(6, minmax(100px, 1fr));
+            gap: 5rem; /* Si uu boosku u yaraado */
+            margin: 0;
+          
+            max-width: 100px; /* Haddii ay aad u fidsan yihiin */
+          
+           
+        }
+        .logo-brand-name img{
+         margin: 4rem;
+         
+        }
+        .grid10 {
+            background-image: url('images/footer.jpg');
+            height:500px;
+            width:100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px; */
+            z-index: -1;
+        }
+        .footer h1{
+            color: #fff;
+           
+        }
+        input {
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding-top: 14px;
+            padding-bottom: 16px;
+            padding-left: 20px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+
+            width: 300px;
+        }
+        .footer{
+            display: flex;
+            gap: 25rem;
+        }
+        button {
+            font-size: 13px;
+            color: #002699;
+            font-weight: 700;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            margin-top: 7px;
+            margin-right: 7px;
+            margin-left: 7px;
+            border-radius: 3px;
+        }
+        .grid10-section2{
+            color: #9c9797;
+            gap: 7rem;
+            
+          
+           
+        }
+        /* .grid10-section2 ul:hover {
+        
+            transform: scale(1.05);
+        }
+        .grid10-section2 ul{
+
+            transition: transform 0.3s ease-in-out;
+        } */
+        
+         .grid-section{
+            margin-left :20rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            color: #9c9797;
+         }
