@@ -883,6 +883,92 @@ color: #002699;
     margin-top: 60px;
 }
 
+/* Our Business Solution */
+
+/* General Styles */
+.Business-solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+/* Left Section - Video & Text */
+.business-media {
+    position: relative;
+    background: url("https://xtratheme.com/elementor/corporate/wp-content/uploads/sites/4/2018/07/slider31.jpg") no-repeat center center/cover;
+    width: 900px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    z-index: 111;
+}
+
+.business-media i {
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.business-span {
+    bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Right Section - Services List */
+.Business-list {
+    position: relative;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.business-item {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.business-item:hover {
+    transform: translateY(-5px);
+}
+
+.business-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 20px;
+    margin-left: -150px;
+}
+
+.business-content h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.business-content p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+
 /* Telephone */
 
 @media screen and (max-width: 480px) {
