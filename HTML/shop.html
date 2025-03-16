@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop page</title>
+    <link rel="stylesheet" href="../CSS/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Humburger -->
+        <div class="humburger">
+           
+           <!-- <a href="tel:617361394"><i class="fa-solid fa-phone-volume phone" data-visible="true" ></i></a> -->
+           <i class="fa-solid fa-bars" data-visible="true"></i>
+           <i class="fa-solid fa-close" data-visible="false"></i>
+       </div>
+       <div class="top-header">
+           <!-- social -->
+           <div class="social">
+               <a href="#" class="social-link" title="Facebook"><i class="fa-brands fa-facebook-f"></i>
+                   </a>
+               <a href="#" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i>
+                   </a>
+               <a href="#" class="social-link"
+               title="Twitter"><i class="fa-brands fa-twitter"></i>
+                   </a>
+               <a href="#" class="social-link" title="Youtube"><i class="fa-brands fa-youtube"></i>
+                   </a>
+
+           </div>
+           <!-- contact -->
+            <div class="message-contact">
+               <!-- call -->
+                <i class="fa-solid fa-mobile-screen-button"> 
+            </i>
+               <a href="tel:252617361394">Have a question.?
+                   Call now +252(617361394)</a>
+                   <!-- slash -->
+                    <p class="slash">/</p>
+                   <!-- Message -->
+                   <i class="fa-solid fa-message"></i>
+                   <a href="mailto:cabdiladiifcabdisamed@gmail.com">Need Help.? contact us via Email</a>
+            </div>
+       </div>
+
+       <!-- Second Header -->
+
+       <div class="second-header">
+           <div class="logo">
+               <a href="index.html">
+                   <img src="../images/logo-heks-light.png" alt="Company Logo">
+               </a>
+           </div>
+           <!-- menu -->
+           <nav class="menu">
+               <ul>
+                   <li><a href="index.html" class="current-menu"><i class="fa-solid fa-house"></i></a></li>
+                   <li><a href="about.html">About Us</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">FAQS</a></li>
+                   <li><a href="Blog.html">Blog</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="Shop.html">Shop</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+               <!-- icons -->
+               <i class="fa-solid fa-magnifying-glass"></i>
+               <i class="fa-solid fa-cart-shopping"></i>
+               <p class="cart-count">0</p>
+               <i class="fa-solid fa-bars"></i>
+           </nav>
+       </div>
+       <!-- Mobile Menu -->
+       <nav class="container mobile-menu" data-visible="false">
+           
+           <ul>
+               <li><a href="index.html" class="current-menu"><i class="fa-solid fa-house"></i></a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">FAQS</a></li>
+               <li><a href="Blog.html">Blog</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="Shop.html">Shop</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+            
+        </nav>
+
+       <!-- hero   -->
+
+       <section class="hero">
+           <!--  -->
+           <div class="overlay"></div>
+           <div class="slider">
+               <div class="slide active" style="background-image: url('../images/hero1.png');">
+                   <div class="content content-2">
+                       <h3>We Plan, We Excute , You Celbrate</h3>
+                       <p>We are Advertising Technology Experts That Drives Business Result </p>
+                       <div class="buttons">
+                           <button class="btn-primary">Start Your New Project</button>
+                           <button class="btn-secondary">Read More About Plans</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="slide" style="background-image: url('../images/hero2.png');">
+                   <div class="content content-1">
+                       <h3>Protect Your Own Business</h3>
+                       <p>Need a Consultant For Your Business Contact Us Today</p>
+
+                       <div class="buttons buttons-1">
+                           <button class="btn-primary">Start Your New Project</button>
+                           <button class="btn-secondary">Read More About Plans</button>
+                       </div>
+                   </div>
+               </div>
+               
+           <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+           <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+       </section>
+
+
+       <!-- js -->
+
+       <script src="../main.js"></script>
+   </header>
+
+</body>
+</html>

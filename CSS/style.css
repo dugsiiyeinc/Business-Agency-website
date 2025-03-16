@@ -1380,7 +1380,7 @@ color: #002699;
     color: #FFFFFF;
     margin: 0 5px;
 }
-/* Telephone */
+/* Telephone Responsive*/
 
 @media screen and (max-width: 480px) {
      /* Hide desktop menu */
@@ -2028,7 +2028,7 @@ color: #002699;
     }
 }
 
-/* Tablet */
+/* Tablet  Responsive*/
 @media screen and (min-width: 481px) and (max-width: 1024px) {
      /* Hide desktop menu */
      .desktop-menu{
