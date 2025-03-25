@@ -688,12 +688,17 @@ color: #002699;
     font-size: 38px;
     font-weight: 900;
     margin-bottom: 50px;
+    color: #fff;
+
 
 }
 .goals-content h5{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 100px;
+    color: #fff;
+
+    
 
 }
 
@@ -701,6 +706,8 @@ color: #002699;
     font-size: 20px;
     font-weight: 500;
     line-height: 35px;
+     color: #fff;
+    
 }
 .goal-list{
     display: flex;
@@ -728,17 +735,26 @@ color: #002699;
 .goal-item i{
     font-size: 20px;
     font-weight: 700;
+    color: #fff;
+
 }
 .goal-item h4{
     font-size: 20px;
     font-weight: 700;
-    color: #CCC;
+    color: #fff ;
+}
+
+.goal-item p{
+    color: #fff;
+
 }
 
 .goal-item-1{
     border-bottom: 5px solid #fff;
     color: #ffffff;
 }
+
+
 
 /* Our Works  */
 
@@ -2446,6 +2462,8 @@ color: #002699;
         color: #ffff;
 
     }
+
+
 
     /* Our Works */
     .our-works {
