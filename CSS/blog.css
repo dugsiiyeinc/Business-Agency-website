@@ -825,6 +825,8 @@ body{
     .second-header .logo a img,
     .second-header .menu a {
         color: #fff; 
+        margin-left: -60px;
+         margin-top: -20px;
     }
 
     .content{
