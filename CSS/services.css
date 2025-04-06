@@ -134,13 +134,17 @@ body{
     font-weight: 600;
 }
 .current-menu{
-    border-bottom: 5px solid #FFFFFF;
-    padding-bottom: 15px;
+    background: linear-gradient(to right, #002699, #0056b3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 .second-header .menu a:hover{
-    border-bottom: 5px solid #FFFFFF;
-    padding-bottom: 15px;
+    background: linear-gradient(to right, #002699, #0056b3);
+    padding: 10px 20px;
+    border-radius: 5px;
     color: #fff;
     transition: color 0.3s ease;
 }
@@ -653,13 +657,24 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1111;
     cursor: pointer;
+    transform: translateY(-50px);
+    opacity: 0;
+    animation: slideDown 1.2s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .service:hover{
+  
+    border: #002699 3px solid;
     transform: scale(1.03);
     transition: transform 0.3s ease;
 }
-
-
 .service img{
     width: 64px;
     height: 64px;

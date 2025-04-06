@@ -134,13 +134,17 @@ body{
     font-weight: 600;
 }
 .current-menu{
-    border-bottom: 5px solid #FFFFFF;
-    padding-bottom: 15px;
+    background: linear-gradient(to right, #002699, #0056b3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 .second-header .menu a:hover{
-    border-bottom: 5px solid #FFFFFF;
-    padding-bottom: 15px;
+    background: linear-gradient(to right, #002699, #0056b3);
+    padding: 10px 20px;
+    border-radius: 5px;
     color: #fff;
     transition: color 0.3s ease;
 }
