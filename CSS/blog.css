@@ -157,8 +157,8 @@ body{
 }
 .second-header .menu  .cart-count{
     position:absolute;
-    top: 88px;
-    right: 110px;
+    top: 100px;
+    right: 65px;
 
     background-color: rgb(180, 179, 179) !important;
     color: black;
@@ -171,16 +171,12 @@ body{
 
 /* Hero Section */
 .hero {
- 
-
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 32px;
-    
-
 }
 
 .slider {
